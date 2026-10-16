@@ -1,0 +1,32 @@
+.image-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: rgb(246, 175, 42);
+    img {
+        border-radius: 5px;
+    }
+}
+.matkul {
+    box-shadow: 0 1px 2px 0 #9d741480;
+    background-color: #7e602b66;
+    padding: 10px 20px;
+}
+.UKM {
+    box-shadow: 0 1px 2px 0 #d1af6180;
+    background-color: #e89f2066;
+    padding: 10px 20px;
+}
+.Peminatan {
+    box-shadow: 0 1px 2px 0 #d1a94c80;
+    background-color: #75521666;
+    padding: 10px 20px;
+}
+.Organisasi {
+    box-shadow: 0 1px 2px 0 #7e5e1580;
+    background-color: #c78e2d66;
+    padding: 10px 20px;
+}
