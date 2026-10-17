@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Pendaftaran Anggota Hokage</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+</head>
+
+<body>
+    <div class="container">
+        <h1>Gabung Bersama Negara Kami</h1>
+        <p class="intro">
+            Lengkapi data berikut untuk mendaftarkan diri sebagai anggota Hokage baru.
+            Isi informasi dengan benar agar proses seleksi berjalan lancar.
+        </p>
+
+        <form action="" method="post" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Data Pribadi</legend>
+
+                <div class="form-group">
+                    <label for="nama">Nama Lengkap</label>
+                    <input type="text" id="nama" name="nama" />
+                </div>
+
+                <div class="form-group">
+                    <span class="label-title">Jenis Kelamin</span>
+                    <div class="choice-group">
+                        <input type="radio" id="laki" name="jk" value="Laki-Laki" />
+                        <label for="laki">Laki-laki</label>
+
+                        <input type="radio" id="perempuan" name="jk" value="Perempuan" />
+                        <label for="perempuan">Perempuan</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="univ">Asal Universitas</label>
+                    <input type="text" id="univ" name="univ" />
+                </div>
+
+                <div class="form-group">
+                    <label for="kota">Asal Kota</label>
+                    <select id="kota" name="kota">
+                        <option value="Jakarta">Jakarta</option>
+                        <option value="Surabaya">Surabaya</option>
+                        <option value="Bandung">Bandung</option>
+                        <option value="Yogyakarta">Yogyakarta</option>
+                        <option value="Medan">Medan</option>
+                        <option value="Makassar">Makassar</option>
+                        <option value="Semarang">Semarang</option>
+                        <option value="Palembang">Palembang</option>
+                        <option value="Denpasar">Denpasar</option>
+                        <option value="Malang">Malang</option>
+                    </select>
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Alamat Email Aktif</label>
+                    <input type="text" id="email" name="email" />
+                </div>
+
+                <div class="form-group">
+                    <label for="telepon">Nomor Telepon atau WhatsApp</label>
+                    <input type="text" id="telepon" name="telepon" />
+                </div>
+
+                <div class="form-group">
+                    <label for="hobby">Hobby saat ini</label>
+                    <select id="hobby" name="hobby">
+                        <option value="Billiards">Billiards</option>
+                        <option value="Sepak Bola">Sepak Bola</option>
+                        <option value="Basket">Basket</option>
+                        <option value="Berenang">Berenang</option>
+                        <option value="Diving">Diving</option>
+                        <option value="Main Game">Main Game</option>
+                        <option value="Golf">Golf</option>
+                        <option value="Bersepeda">Bersepeda</option>
+                    </select>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Minat dan Pengalaman</legend>
+
+                <div class="form-group">
+                    <span class="label-title">Kehidupan</span>
+                    <div class="choice-group">
+                        <input type="radio" id="trilliuner" name="kehidupan" value="Trilliuner" />
+                        <label for="trilliuner">Trilliuner</label>
+
+                        <input type="radio" id="milliarder" name="kehidupan" value="Milliarder" />
+                        <label for="milliarder">Milliarder</label>
+
+                        <input type="radio" id="jutawan" name="kehidupan" value="Jutawan" />
+                        <label for="jutawan">Jutawan</label>
+
+                        <input type="radio" id="miskin" name="kehidupan" value="Miskin" />
+                        <label for="miskin">Miskin</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <span class="label-title">Pengalaman Hidup</span>
+                    <div class="choice-group">
+                        <input type="checkbox" id="keluarnegri" name="pengalaman" value="Keluar Negeri" />
+                        <label for="keluarnegri">Keluar Negeri</label>
+
+                        <input type="checkbox" id="bahagiainortu"
+                               name="pengalaman" value="Bersama Orang Tua" />
+                        <label for="bahagiainortu">Membahagiakan Orang Tua</label>
+
+                        <input type="checkbox" id="volunteer"
+                               name="pengalaman" value="Volunteer" />
+                        <label for="volunteer">Kerelaawan</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <span class="label-title">Kemampuan yang Dimiliki</span>
+                    <div class="choice-group">
+                        <input type="checkbox" id="bakar"
+                               name="kemampuan" value="Bakar" />
+                        <label for="bakar">Membakar Hutan</label>
+
+                        <input type="checkbox" id="korupsi"
+                               name="kemampuan" value="Korupsi" />
+                        <label for="korupsi">Korupsi</label>
+
+                        <input type="checkbox" id="menyiksa"
+                               name="kemampuan" value="Menyiksa" />
+                        <label for="menyiksa">Menyiksa Rakyat</label>
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="alasan">Alasan Ingin Bergabung</label>
+                    <textarea id="alasan" name="alasan" rows="6" cols="30"></textarea>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Dokumen Pendukung</legend>
+
+                <div class="form-group">
+                    <label for="hk">Unggah Hasil Korupsi Terbanyak dalam Format PDF</label>
+                    <input type="file" id="hk" name="hk" accept="application/pdf" />
+                    <p class="help-text">Ukuran file sebaiknya tidak terlalu besar.</p>
+                </div>
+            </fieldset>
+
+            <div class="button-area">
+                <input type="submit" name="daftar" value="Kirim Pendaftaran" />
+            </div>
+        </form>
+    </div>
+</body>
+</html>

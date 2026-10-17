@@ -1,0 +1,124 @@
+body {
+    margin: 20px;
+    background-color: #eaf3f8;
+    color: #333333;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #b7cddd;
+}
+
+h1 {
+    margin-top: 0;
+    color: #205072;
+    font-size: 24px;
+    text-align: center;
+}
+
+.intro {
+    margin-bottom: 20px;
+    color: #527080;
+    text-align: center;
+}
+
+fieldset {
+    margin-bottom: 18px;
+    padding: 15px;
+    border: 1px solid #9fc3d5;
+    background-color: #f8fcfe;
+}
+
+legend {
+    padding: 0 6px;
+    color: #205072;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label,
+.label-title {
+    display: block;
+    margin-bottom: 5px;
+    color: #315b70;
+    font-weight: bold;
+}
+
+input[type="text"],
+select,
+textarea,
+input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #9db7c5;
+    background-color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+}
+
+input[type="text"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #3b8dbd;
+    outline: none;
+    background-color: #f0f8fc;
+}
+
+textarea {
+    resize: vertical;
+}
+
+.choice-group {
+    margin-top: 5px;
+}
+
+.choice-group label {
+    display: inline;
+    margin-right: 12px;
+    color: #444444;
+    font-weight: normal;
+}
+
+.choice-group input {
+    margin-right: 3px;
+}
+
+.help-text {
+    margin-top: 5px;
+    color: #6b7f87;
+    font-size: 12px;
+}
+
+.button-area {
+    text-align: center;
+}
+
+input[type="submit"] {
+    padding: 9px 20px;
+    border: 1px solid #28627d;
+    background-color: #28627d;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+input[type="submit"]:hover {
+    background-color: #1d4b61;
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        margin: 10px;
+    }
+
+    .container {
+        padding: 15px;
+    }
+}
