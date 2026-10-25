@@ -4,16 +4,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="id" lang="id">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-    <title>Pendaftaran Anggota Hokage</title>
+    <title>Formulir Pendaftaran Organisasi</title>
     <link rel="stylesheet" type="text/css" href="style.css" />
 </head>
 
 <body>
     <div class="container">
-        <h1>Gabung Bersama Negara Kami</h1>
+        <h1>Formulir Pendaftaran Organisasi</h1>
         <p class="intro">
-            Lengkapi data berikut untuk mendaftarkan diri sebagai anggota Hokage baru.
-            Isi informasi dengan benar agar proses seleksi berjalan lancar.
+            Lengkapi data berikut untuk mengajukan keanggotaan organisasi.
+            Pastikan setiap informasi yang diberikan sudah sesuai.
         </p>
 
         <form action="" method="post" enctype="multipart/form-data">
@@ -23,6 +23,32 @@
                 <div class="form-group">
                     <label for="nama">Nama Lengkap</label>
                     <input type="text" id="nama" name="nama" />
+                </div>
+
+                <div class="form-group">
+                    <label for="nim">Nomor Induk Mahasiswa</label>
+                    <input type="text" id="nim" name="nim" />
+                </div>
+
+                <div class="form-group">
+                    <label for="prodi">Jurusan atau Program Studi</label>
+                    <select id="prodi" name="prodi">
+                        <option value="Management">Management</option>
+                        <option value="Ekonomi">Ekonomi</option>
+                        <option value="Teknik Sipil">Teknik Sipil</option>
+                        <option value="Ilmu Komunikasi">Ilmu Komunikasi</option>
+                        <option value="Arsitektur">Arsitektur</option>
+                    </select>
+                </div>
+                
+                <div class="form-group">
+                    <label for="email">Email Aktif</label>
+                    <input type="text" id="email" name="email" />
+                </div>
+
+                <div class="form-group">
+                    <label for="telepon">Kontak Telepon</label>
+                    <input type="text" id="telepon" name="telepon" />
                 </div>
 
                 <div class="form-group">
@@ -37,48 +63,21 @@
                 </div>
 
                 <div class="form-group">
-                    <label for="univ">Asal Universitas</label>
-                    <input type="text" id="univ" name="univ" />
-                </div>
-
-                <div class="form-group">
-                    <label for="kota">Asal Kota</label>
-                    <select id="kota" name="kota">
-                        <option value="Jakarta">Jakarta</option>
-                        <option value="Surabaya">Surabaya</option>
-                        <option value="Bandung">Bandung</option>
-                        <option value="Yogyakarta">Yogyakarta</option>
-                        <option value="Medan">Medan</option>
-                        <option value="Makassar">Makassar</option>
-                        <option value="Semarang">Semarang</option>
-                        <option value="Palembang">Palembang</option>
-                        <option value="Denpasar">Denpasar</option>
-                        <option value="Malang">Malang</option>
+                    <label for="semester">Tingkat Semester</label>
+                    <select id="semester" name="semester">
+                        <option value="Semester 1">Semester 1</option>
+                        <option value="Semester 2">Semester 2</option>
+                        <option value="Semester 3">Semester 3</option>
+                        <option value="Semester 4">Semester 4</option>
+                        <option value="Semester 5">Semester 5</option>
+                        <option value="Semester 6">Semester 6</option>
+                        <option value="Semester 7">Semester 7</option>
+                        <option value="Semester 8">Semester 8</option>
                     </select>
                 </div>
-
                 <div class="form-group">
-                    <label for="email">Alamat Email Aktif</label>
-                    <input type="text" id="email" name="email" />
-                </div>
-
-                <div class="form-group">
-                    <label for="telepon">Nomor Telepon atau WhatsApp</label>
-                    <input type="text" id="telepon" name="telepon" />
-                </div>
-
-                <div class="form-group">
-                    <label for="hobby">Hobby saat ini</label>
-                    <select id="hobby" name="hobby">
-                        <option value="Billiards">Billiards</option>
-                        <option value="Sepak Bola">Sepak Bola</option>
-                        <option value="Basket">Basket</option>
-                        <option value="Berenang">Berenang</option>
-                        <option value="Diving">Diving</option>
-                        <option value="Main Game">Main Game</option>
-                        <option value="Golf">Golf</option>
-                        <option value="Bersepeda">Bersepeda</option>
-                    </select>
+                    <label for="hobby">Hobby</label>
+                    <input type="text" id="hobby" name="hobby" />
                 </div>
             </fieldset>
 
@@ -86,58 +85,53 @@
                 <legend>Minat dan Pengalaman</legend>
 
                 <div class="form-group">
-                    <span class="label-title">Kehidupan</span>
+                    <span class="label-title">Bidang yang Diminati</span>
                     <div class="choice-group">
-                        <input type="radio" id="trilliuner" name="kehidupan" value="Trilliuner" />
-                        <label for="trilliuner">Trilliuner</label>
+                        <input type="radio" id="acara" name="divisi" value="Acara" />
+                        <label for="acara">Acara</label>
 
-                        <input type="radio" id="milliarder" name="kehidupan" value="Milliarder" />
-                        <label for="milliarder">Milliarder</label>
+                        <input type="radio" id="sdm" name="divisi" value="SDM" />
+                        <label for="sdm">Sumber Daya Manusia</label>
 
-                        <input type="radio" id="jutawan" name="kehidupan" value="Jutawan" />
-                        <label for="jutawan">Jutawan</label>
+                        <input type="radio" id="humas" name="divisi" value="Humas" />
+                        <label for="humas">Hubungan Masyarakat</label>
 
-                        <input type="radio" id="miskin" name="kehidupan" value="Miskin" />
-                        <label for="miskin">Miskin</label>
+                        <input type="radio" id="media" name="divisi" value="Media" />
+                        <label for="media">Media dan Informasi</label>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <span class="label-title">Pengalaman Hidup</span>
+                    <span class="label-title">Pengalaman Kegiatan</span>
                     <div class="choice-group">
-                        <input type="checkbox" id="keluarnegri" name="pengalaman" value="Keluar Negeri" />
-                        <label for="keluarnegri">Keluar Negeri</label>
+                        <input type="checkbox" id="kepanitiaan" name="pengalaman" value="Kepanitiaan" />
+                        <label for="kepanitiaan">Kepanitiaan</label>
 
-                        <input type="checkbox" id="bahagiainortu"
-                               name="pengalaman" value="Bersama Orang Tua" />
-                        <label for="bahagiainortu">Membahagiakan Orang Tua</label>
+                        <input type="checkbox" id="organisasi" name="pengalaman" value="Organisasi" />
+                        <label for="organisasi">Organisasi</label>
 
-                        <input type="checkbox" id="volunteer"
-                               name="pengalaman" value="Volunteer" />
-                        <label for="volunteer">Kerelaawan</label>
+                        <input type="checkbox" id="volunteer" name="pengalaman" value="Volunteer" />
+                        <label for="volunteer">Kegiatan sosial</label>
                     </div>
                 </div>
 
                 <div class="form-group">
                     <span class="label-title">Kemampuan yang Dimiliki</span>
                     <div class="choice-group">
-                        <input type="checkbox" id="bakar"
-                               name="kemampuan" value="Bakar" />
-                        <label for="bakar">Membakar Hutan</label>
+                        <input type="checkbox" id="publicspeaking" name="kemampuan" value="Public Speaking" />
+                        <label for="publicspeaking">Berbicara di depan umum</label>
 
-                        <input type="checkbox" id="korupsi"
-                               name="kemampuan" value="Korupsi" />
-                        <label for="korupsi">Korupsi</label>
+                        <input type="checkbox" id="desain" name="kemampuan" value="Desain" />
+                        <label for="desain">Desain grafis</label>
 
-                        <input type="checkbox" id="menyiksa"
-                               name="kemampuan" value="Menyiksa" />
-                        <label for="menyiksa">Menyiksa Rakyat</label>
+                        <input type="checkbox" id="fotografi" name="kemampuan" value="Fotografi" />
+                        <label for="fotografi">Fotografi</label>
                     </div>
                 </div>
 
                 <div class="form-group">
-                    <label for="alasan">Alasan Ingin Bergabung</label>
-                    <textarea id="alasan" name="alasan" rows="6" cols="30"></textarea>
+                    <label for="alasan">Motivasi Bergabung</label>
+                    <textarea id="alasan" name="alasan" rows="8" cols="30"></textarea>
                 </div>
             </fieldset>
 
@@ -145,14 +139,14 @@
                 <legend>Dokumen Pendukung</legend>
 
                 <div class="form-group">
-                    <label for="hk">Unggah Hasil Korupsi Terbanyak dalam Format PDF</label>
-                    <input type="file" id="hk" name="hk" accept="application/pdf" />
-                    <p class="help-text">Ukuran file sebaiknya tidak terlalu besar.</p>
+                    <label for="cv">Lampiran Curriculum Vitae</label>
+                    <input type="file" id="cv" name="cv" accept="application/pdf" />
+                    <p class="help-text">Unggah CV dalam format PDF dengan ukuran file yang wajar.</p>
                 </div>
             </fieldset>
 
             <div class="button-area">
-                <input type="submit" name="daftar" value="Kirim Pendaftaran" />
+                <input type="submit" name="daftar" value="Kirim Formulir" />
             </div>
         </form>
     </div>
